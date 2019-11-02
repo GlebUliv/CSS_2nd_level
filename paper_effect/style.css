@@ -1,0 +1,85 @@
+body{
+  background-image: url(background.png);
+  /* background-repeat: repeat-y;   */
+}
+a{
+    color: white;
+}
+#photo{
+    width: 1150px;
+    height: 800px;
+    background-color: #444;
+    border: 20px solid white;
+    margin: 20px auto;
+    box-shadow: -2px 0 4px 1px #222;
+}
+#photo>.text{
+    width: 1000px;
+    height: 800px;
+    background-color: #444;
+    position: absolute;
+    top: 40px;
+    right: 305px;
+    width: 200px;
+    height: 800px;
+} 
+#photo>.image{
+    width: 1000px;
+    height: 800px;
+    background-color: #444;
+    perspective: 1000px;
+}
+#photo>.text>ul{
+    float: right;
+}
+#photo>.image>div{
+    width: 200px;
+    height: 800px;
+    /* background-color: gold; */
+    background-image: url(photo.jpg);
+    float: left;
+}
+#photo>.image>div:nth-child(2){
+    background-position: -200px 0;
+    transform: rotateY(-25deg) scale(1.055) translateX(-25px);
+}
+#photo>.image>div:nth-child(3){
+    background-position: -400px 0;
+    transform: rotateY(25deg) scale(1.028) translateX(-34.8px)
+}
+#photo>.image>div:nth-child(4){
+    background-position: -600px 0;
+    transform: rotateY(-25deg) scale(1.0636) translateX(-42.3px);
+}
+#photo>.image>div:nth-child(5){
+    background-position: -800px 0;
+    transform: rotateY(25deg) scale(1.0121) translateX(-71.8px);
+}
+#photo>.image>div:nth-child(2)>div{
+    width: 200px;
+    height: 800px;
+    background-image: linear-gradient(90deg, #0002, transparent);
+}
+#photo>.image>div:nth-child(4)>div{
+    width: 200px;
+    height: 800px;
+    background-image: linear-gradient(90deg, #0002, transparent);
+}
+#photo>.text>ul{
+    list-style-type: none;
+}
+#photo>.text>ul>li:first-child{
+    margin-top: 50px;
+    padding-right: 70px;
+    font-size: 150%;
+}
+#photo>.text>ul>li:first-child+li{
+    margin-top: 50px;
+    /* margin-right: 50px; */
+    font-size: 150%;
+}
+#photo>.text>ul>li:last-child{
+    margin-top: 550px;
+    margin-right: 50px;
+    font-size: 250%;
+}
