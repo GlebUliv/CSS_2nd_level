@@ -1,0 +1,42 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+ul{
+    width: 236px;
+    height: 300px;
+    background-color: #344;
+}
+#cross-menu>ul>li:first-child{
+    float: left;
+    width: 35px;
+    height: 300px;
+    border-right: 1px solid #334;
+    /* margin-left: 12px;
+    margin-top: 10px; */
+
+}
+i{
+    margin-left: 45px;
+}
+h2{
+    color: darkblue;
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+    text-align: center;
+    padding: 10px;
+}
+#cross-menu ul li:not(:nth-child(1)){
+    width: 200px;
+    height: 59px;
+    /* float: right; */
+    border-bottom: 1px solid #334;
+    margin-left: 35px;
+    
+}
+a{
+    color: white;
+    text-decoration: none;
+    font-size: 80%;
+    /* margin: auto 40px; */
+    padding-top: 10px;
+}
