@@ -1,9 +1,981 @@
 .viber-app{
     background-color: #161F26;
+    height: 988px;
+    border-radius: 20px;
 }
-.status-bar{
 
-}
 a{
     color: white;
+}
+
+.status-bar{
+    position: relative;
+    left: 390px;
+    top: 8px;
+    height: 16px;
+
+}
+
+.viber-app .top-bar label{
+    color: white;
+    font-weight: bold;
+    font-size: 120%;
+    position: relative;
+    top: 3vh;
+    left: 1vw;
+}
+
+.viber-app .top-bar a:last-child{
+    float: right;
+    position: relative;
+    top: 3vh;
+    right: 1vw;
+}
+
+.top-bar{
+    height: 70px;
+    width: auto;
+    border-bottom: 1px solid black;
+}
+
+.chat-contacts__contact{
+    height: 82px;
+}
+
+.chat-contacts__message .fa-check-circle{
+    color: skyblue;
+    margin-left: 10px;
+}
+
+.chat-contacts__preview{
+    border-bottom: 1px solid black;
+}
+
+.chat-contacts__preview h3{
+    position: relative;
+    bottom: 35px;
+    left: 70px;
+    color: white;
+}
+
+.chat-contacts__contact:hover{
+    background-color: rgb(87, 85, 85);
+}
+
+.chat-contacts__preview p{
+    position: relative;
+    left: 70px ;
+    bottom: 20px;
+    color: rgb(122, 119, 119);
+}
+
+.chat-contacts__preview p b{
+    font-weight: bold;
+}
+
+.chat-contacts__avatar{
+    width: 50px;
+    height: 50px;
+    position: relative;
+    left: 10px;
+    top: 17px;
+}
+
+.chat-contacts__timestamp{
+    position: relative;
+    left: 385px;
+    bottom: 65px;
+}
+
+.chat-contacts__status--unread{
+    color: rgb(122, 119, 119);
+}
+
+.chat-contacts__status--read{
+    color: rgba(112, 92, 242, 1);
+}
+
+.chat-contacts__status--unread .fa-check,
+.chat-contacts__status--read .fa-check{
+    color: rgb(122, 119, 119);
+}
+
+.chat-contacts__status--unread .fa-check:first-child{
+    position: relative;
+    left: 9px;
+}
+
+.chat-contacts__status--unread time{
+    color: rgba(112, 92, 242, 1);
+}
+
+.chat-contacts__counter{
+    color: #fff;
+    position: relative;
+    top: 10px;
+    left: 25px;
+    background-color: rgba(112, 92, 242, 1);
+    width: 40px;
+    height: 18px;
+    text-align: center;
+    padding-top: 5px;
+    border-radius: 20px;
+    font-weight: bold;
+}
+/* --------------------------------------------------------------------- */
+.chat-contacts1__contact{
+    height: 82px;
+}
+
+.chat-contacts1__message .fa-check-circle{
+    color: skyblue;
+    margin-left: 10px;
+}
+
+.chat-contacts1__preview{
+    border-bottom: 2px solid black;
+}
+
+.chat-contacts1__preview h3{
+    position: relative;
+    bottom: 35px;
+    left: 70px;
+    color: white;
+}
+
+.chat-contacts1__contact:hover{
+    background-color: rgb(87, 85, 85);
+}
+
+.chat-contacts1__preview p{
+    position: relative;
+    left: 70px ;
+    bottom: 20px;
+    color: rgb(122, 119, 119);
+}
+
+.chat-contacts1__preview p b{
+    font-weight: bold;
+}
+
+.chat-contacts1__avatar{
+    width: 50px;
+    height: 50px;
+    position: relative;
+    left: 10px;
+    top: 18px;
+}
+
+.chat-contacts1__timestamp{
+    position: relative;
+    left: 385px;
+    bottom: 65px;
+}
+
+.chat-contacts1__status--unread{
+    color: rgb(122, 119, 119);
+}
+
+.chat-contacts1__status--read{
+    color: rgba(112, 92, 242, 1);
+}
+
+.chat-contacts1__status--unread .fa-check,
+.chat-contacts1__status--read .fa-check{
+    color:   rgb(122, 119, 119);
+}
+
+.chat-contacts1__status--unread .fa-check:first-child{
+    position: relative;
+    left: 9px;
+}
+
+.chat-contacts1__status--unread time{
+    color: rgba(112, 92, 242, 1);
+}
+
+.chat-contacts1__counter{
+    color: #fff;
+    position: relative;
+    top: 10px;
+    left: 25px;
+    background-color: rgba(112, 92, 242, 1);
+    width: 40px;
+    height: 18px;
+    text-align: center;
+    padding-top: 5px;
+    border-radius: 20px;
+    font-weight: bold;
+}
+/* ------------------------------------------------------------------------ */
+
+.chat-contacts2__contact{
+    height: 82px;
+}
+
+.chat-contacts2__message .fa-check-circle{
+    color: skyblue;
+    margin-left: 10px;
+}
+
+.chat-contacts2__preview{
+    border-bottom: 2px solid black;
+}
+
+.chat-contacts2__preview h3{
+    position: relative;
+    bottom: 35px;
+    left: 70px;
+    color: white;
+}
+
+.chat-contacts2__contact:hover{
+    background-color: rgb(87, 85, 85);
+}
+
+.chat-contacts2__preview p{
+    position: relative;
+    left: 70px ;
+    bottom: 20px;
+    color: rgb(122, 119, 119);
+}
+
+.chat-contacts2__preview p b{
+    font-weight: bold;
+}
+
+.chat-contacts2__avatar{
+    width: 50px;
+    height: 50px;
+    position: relative;
+    left: 10px;
+    top: 15px;
+}
+
+.chat-contacts2__timestamp{
+    position: relative;
+    left: 385px;
+    bottom: 65px;
+}
+
+.chat-contacts2__status--unread{
+    color: rgb(122, 119, 119);
+}
+
+.chat-contacts2__status--read{
+    color: rgba(112, 92, 242, 1);
+}
+
+.chat-contacts2__status--unread .fa-check,
+.chat-contacts2__status--read .fa-check{
+    color:  rgba(112, 92, 242, 1);
+}
+
+.chat-contacts2__status--unread .fa-check:first-child{
+    position: relative;
+    left: 9px;
+}
+
+.chat-contacts2__status--unread time{
+    color: rgba(112, 92, 242, 1);
+}
+
+.chat-contacts2__counter{
+    color: #fff;
+    position: relative;
+    top: 10px;
+    left: 25px;
+    background-color: rgba(112, 92, 242, 1);
+    width: 40px;
+    height: 18px;
+    text-align: center;
+    padding-top: 5px;
+    border-radius: 20px;
+    font-weight: bold;
+}
+/* ---------------------------------------------------------- */
+.chat-contacts3__contact{
+    height: 82px;
+}
+
+.chat-contacts3__message .fa-check-circle{
+    color: skyblue;
+    margin-left: 10px;
+}
+
+.chat-contacts3__preview{
+    border-bottom: 2px solid black;
+}
+
+.chat-contacts3__preview h3{
+    position: relative;
+    bottom: 35px;
+    left: 70px;
+    color: white;
+}
+
+.chat-contacts3__contact:hover{
+    background-color: rgb(87, 85, 85);
+}
+
+.chat-contacts3__preview p{
+    position: relative;
+    left: 70px ;
+    bottom: 20px;
+    color: rgb(122, 119, 119);
+}
+
+.chat-contacts3__preview p b{
+    font-weight: bold;
+}
+
+.chat-contacts3__avatar{
+    width: 50px;
+    height: 50px;
+    position: relative;
+    left: 10px;
+    top: 15px;
+}
+
+.chat-contacts3__timestamp{
+    position: relative;
+    left: 385px;
+    bottom: 65px;
+}
+
+.chat-contacts3__status--unread{
+    color: rgb(122, 119, 119);
+}
+
+.chat-contacts3__status--read{
+    color: rgba(112, 92, 242, 1);
+}
+
+.chat-contacts3__status--unread .fa-check,
+.chat-contacts3__status--read .fa-check{
+    color:   rgb(122, 119, 119);
+}
+
+.chat-contacts3__status--unread .fa-check:first-child{
+    position: relative;
+    left: 9px;
+}
+
+.chat-contacts3__status--unread time{
+    color: rgba(112, 92, 242, 1);
+}
+
+.chat-contacts3__counter{
+    color: #fff;
+    position: relative;
+    top: 10px;
+    left: 25px;
+    background-color: rgba(112, 92, 242, 1);
+    width: 40px;
+    height: 18px;
+    text-align: center;
+    padding-top: 5px;
+    border-radius: 20px;
+    font-weight: bold;
+}
+
+/* ------------------------------------------------------- */
+
+.chat-contacts4__contact{
+    height: 82px;
+}
+
+.chat-contacts4__message .fa-check-circle{
+    color: skyblue;
+    margin-left: 10px;
+}
+
+.chat-contacts4__preview{
+    border-bottom: 2px solid black;
+}
+
+.chat-contacts4__preview h3{
+    position: relative;
+    bottom: 35px;
+    left: 70px;
+    color: white;
+}
+
+.chat-contacts4__contact:hover{
+    background-color: rgb(87, 85, 85);
+}
+
+.chat-contacts4__preview p{
+    position: relative;
+    left: 70px ;
+    bottom: 20px;
+    color: rgb(122, 119, 119);
+}
+
+.chat-contacts4__preview p b{
+    font-weight: bold;
+}
+
+.chat-contacts4__avatar{
+    width: 50px;
+    height: 50px;
+    position: relative;
+    left: 10px;
+    top: 15px;
+}
+
+.chat-contacts4__timestamp{
+    position: relative;
+    left: 385px;
+    bottom: 65px;
+}
+
+.chat-contacts4__status--unread{
+    color: rgb(122, 119, 119);
+}
+
+.chat-contacts4__status--read{
+    color: rgba(112, 92, 242, 1);
+}
+
+.chat-contacts4__status--unread .fa-check,
+.chat-contacts4__status--read .fa-check{
+    color:  rgba(112, 92, 242, 1);
+}
+
+.chat-contacts4__status--unread .fa-check:first-child{
+    position: relative;
+    left: 9px;
+}
+
+.chat-contacts4__status--unread time{
+    color: rgba(112, 92, 242, 1);
+}
+
+.chat-contacts4__counter{
+    color: #fff;
+    position: relative;
+    top: 10px;
+    left: 25px;
+    background-color: rgba(112, 92, 242, 1);
+    width: 40px;
+    height: 18px;
+    text-align: center;
+    padding-top: 5px;
+    border-radius: 20px;
+    font-weight: bold;
+}
+
+/* ---------------------------------------------------------- */
+
+.chat-contacts5__contact{
+    height: 82px;
+}
+
+.chat-contacts5__message .fa-check-circle{
+    color: skyblue;
+    margin-left: 10px;
+}
+
+.chat-contacts5__preview{
+    border-bottom: 2px solid black;
+}
+
+.chat-contacts5__preview h3{
+    position: relative;
+    bottom: 35px;
+    left: 70px;
+    color: white;
+}
+
+.chat-contacts5__contact:hover{
+    background-color: rgb(87, 85, 85);
+}
+
+.chat-contacts5__preview p{
+    position: relative;
+    left: 70px ;
+    bottom: 20px;
+    color: rgb(122, 119, 119);
+}
+
+.chat-contacts5__preview p b{
+    font-weight: bold;
+}
+
+.chat-contacts5__avatar{
+    width: 50px;
+    height: 50px;
+    position: relative;
+    left: 10px;
+    top: 15px;
+}
+
+.chat-contacts5__timestamp{
+    position: relative;
+    left: 385px;
+    bottom: 65px;
+}
+
+.chat-contacts5__status--unread{
+    color: rgb(122, 119, 119);
+}
+
+.chat-contacts5__status--read{
+    color: rgba(112, 92, 242, 1);
+}
+
+.chat-contacts5__status--unread .fa-check,
+.chat-contacts5__status--read .fa-check{
+    color:   rgb(122, 119, 119);
+}
+
+.chat-contacts5__status--unread .fa-check:first-child{
+    position: relative;
+    left: 9px;
+}
+
+.chat-contacts5__status--unread time{
+    color: rgba(112, 92, 242, 1);
+}
+
+.chat-contacts5__counter{
+    color: #fff;
+    position: relative;
+    top: 10px;
+    left: 25px;
+    background-color: rgba(112, 92, 242, 1);
+    width: 40px;
+    height: 18px;
+    text-align: center;
+    padding-top: 5px;
+    border-radius: 20px;
+    font-weight: bold;
+}
+/* ---------------------------------------------- */
+
+.chat-contacts6__contact{
+    height: 82px;
+}
+
+.chat-contacts6__message .fa-check-circle{
+    color: skyblue;
+    margin-left: 10px;
+}
+
+.chat-contacts6__preview{
+    border-bottom: 2px solid black;
+}
+
+.chat-contacts6__preview h3{
+    position: relative;
+    bottom: 35px;
+    left: 70px;
+    color: white;
+}
+
+.chat-contacts6__contact:hover{
+    background-color: rgb(87, 85, 85);
+}
+
+.chat-contacts6__preview p{
+    position: relative;
+    left: 70px ;
+    bottom: 20px;
+    color: rgb(122, 119, 119);
+}
+
+.chat-contacts6__preview p b{
+    font-weight: bold;
+}
+
+.chat-contacts6__avatar{
+    width: 50px;
+    height: 50px;
+    position: relative;
+    left: 10px;
+    top: 15px;
+}
+
+.chat-contacts6__timestamp{
+    position: relative;
+    left: 385px;
+    bottom: 65px;
+}
+
+.chat-contacts6__status--unread{
+    color: rgb(122, 119, 119);
+}
+
+.chat-contacts6__status--read{
+    color: rgba(112, 92, 242, 1);
+}
+
+.chat-contacts6__status--unread .fa-check,
+.chat-contacts6__status--read .fa-check{
+    color:  rgba(112, 92, 242, 1);
+}
+
+.chat-contacts6__status--unread .fa-check:first-child{
+    position: relative;
+    left: 9px;
+}
+
+.chat-contacts6__status--unread time{
+    color: rgba(112, 92, 242, 1);
+}
+
+.chat-contacts6__counter{
+    color: #fff;
+    position: relative;
+    top: 10px;
+    left: 25px;
+    background-color: rgba(112, 92, 242, 1);
+    width: 40px;
+    height: 18px;
+    text-align: center;
+    padding-top: 5px;
+    border-radius: 20px;
+    font-weight: bold;
+}
+
+/* ------------------------------------------------------------------------- */
+
+.chat-contacts7__contact{
+    height: 82px;
+}
+
+.chat-contacts7__message .fa-check-circle{
+    color: skyblue;
+    margin-left: 10px;
+}
+
+.chat-contacts7__preview{
+    border-bottom: 2px solid black;
+}
+
+.chat-contacts7__preview h3{
+    position: relative;
+    bottom: 35px;
+    left: 70px;
+    color: white;
+}
+
+.chat-contacts7__contact:hover{
+    background-color: rgb(87, 85, 85);
+}
+
+.chat-contacts7__preview p{
+    position: relative;
+    left: 70px ;
+    bottom: 20px;
+    color: rgb(122, 119, 119);
+}
+
+.chat-contacts7__preview p b{
+    font-weight: bold;
+}
+
+.chat-contacts7__avatar{
+    width: 50px;
+    height: 50px;
+    position: relative;
+    left: 10px;
+    top: 15px;
+}
+
+.chat-contacts7__timestamp{
+    position: relative;
+    left: 385px;
+    bottom: 65px;
+}
+
+.chat-contacts7__status--unread{
+    color: rgb(122, 119, 119);
+}
+
+.chat-contacts7__status--read{
+    color: rgba(112, 92, 242, 1);
+}
+
+.chat-contacts7__status--unread .fa-check,
+.chat-contacts7__status--read .fa-check{
+    color:   rgb(122, 119, 119);
+}
+
+.chat-contacts7__status--unread .fa-check:first-child{
+    position: relative;
+    left: 9px;
+}
+
+.chat-contacts7__status--unread time{
+    color: rgba(112, 92, 242, 1);
+}
+
+.chat-contacts7__counter{
+    color: #fff;
+    position: relative;
+    top: 10px;
+    left: 25px;
+    background-color: rgba(112, 92, 242, 1);
+    width: 40px;
+    height: 18px;
+    text-align: center;
+    padding-top: 5px;
+    border-radius: 20px;
+    font-weight: bold;
+}
+
+/* -------------------------------------------------------------------------------- */
+
+.chat-contacts8__contact{
+    height: 82px;
+}
+
+.chat-contacts8__message .fa-check-circle{
+    color: skyblue;
+    margin-left: 10px;
+}
+
+.chat-contacts8__preview{
+    border-bottom: 2px solid black;
+}
+
+.chat-contacts8__preview h3{
+    position: relative;
+    bottom: 35px;
+    left: 70px;
+    color: white;
+}
+
+.chat-contacts8__contact:hover{
+    background-color: rgb(87, 85, 85);
+}
+
+.chat-contacts8__preview p{
+    position: relative;
+    left: 70px ;
+    bottom: 20px;
+    color: rgb(122, 119, 119);
+}
+
+.chat-contacts8__preview p b{
+    font-weight: bold;
+}
+
+.chat-contacts8__avatar{
+    width: 50px;
+    height: 50px;
+    position: relative;
+    left: 10px;
+    top: 15px;
+}
+
+.chat-contacts8__timestamp{
+    position: relative;
+    left: 385px;
+    bottom: 65px;
+}
+
+.chat-contacts8__status--unread{
+    color: rgb(122, 119, 119);
+}
+
+.chat-contacts8__status--read{
+    color: rgba(112, 92, 242, 1);
+}
+
+.chat-contacts8__status--unread .fa-check,
+.chat-contacts8__status--read .fa-check{
+    color:  rgba(112, 92, 242, 1);
+}
+
+.chat-contacts8__status--unread .fa-check:first-child{
+    position: relative;
+    left: 9px;
+}
+
+.chat-contacts8__status--unread time{
+    color: rgba(112, 92, 242, 1);
+}
+
+.chat-contacts8__counter{
+    color: #fff;
+    position: relative;
+    top: 10px;
+    left: 25px;
+    background-color: rgba(112, 92, 242, 1);
+    width: 40px;
+    height: 18px;
+    text-align: center;
+    padding-top: 5px;
+    border-radius: 20px;
+    font-weight: bold;
+}
+/* ----------------------------------------------------------------------------- */
+
+.chat-contacts9__contact{
+    height: 82px;
+}
+
+.chat-contacts9__message .fa-check-circle{
+    color: skyblue;
+    margin-left: 10px;
+}
+
+.chat-contacts9__preview{
+    border-bottom: 2px solid black;
+}
+
+.chat-contacts9__preview h3{
+    position: relative;
+    bottom: 35px;
+    left: 70px;
+    color: white;
+}
+
+.chat-contacts9__contact:hover{
+    background-color: rgb(87, 85, 85);
+}
+
+.chat-contacts9__preview p{
+    position: relative;
+    left: 70px ;
+    bottom: 20px;
+    color: rgb(122, 119, 119);
+}
+
+.chat-contacts9__preview p b{
+    font-weight: bold;
+}
+
+.chat-contacts9__avatar{
+    width: 50px;
+    height: 50px;
+    position: relative;
+    left: 10px;
+    top: 15px;
+}
+
+.chat-contacts9__timestamp{
+    position: relative;
+    left: 385px;
+    bottom: 65px;
+}
+
+.chat-contacts9__status--unread{
+    color: rgb(122, 119, 119);
+}
+
+.chat-contacts9__status--read{
+    color: rgba(112, 92, 242, 1);
+}
+
+.chat-contacts9__status--unread .fa-check,
+.chat-contacts9__status--read .fa-check{
+    color:   rgb(122, 119, 119);
+}
+
+.chat-contacts9__status--unread .fa-check:first-child{
+    position: relative;
+    left: 9px;
+}
+
+.chat-contacts9__status--unread time{
+    color: rgba(112, 92, 242, 1);
+}
+
+.chat-contacts9__counter{
+    color: #fff;
+    position: relative;
+    top: 10px;
+    left: 25px;
+    background-color: rgba(112, 92, 242, 1);
+    width: 40px;
+    height: 18px;
+    text-align: center;
+    padding-top: 5px;
+    border-radius: 20px;
+    font-weight: bold;
+}
+/* ------------------------------------------------- */
+.chat-contacts10__contact{
+    height: 82px;
+}
+
+.chat-contacts10__message .fa-check-circle{
+    color: skyblue;
+    margin-left: 10px;
+}
+
+.chat-contacts10__preview h3{
+    position: relative;
+    bottom: 35px;
+    left: 70px;
+    color: white;
+}
+
+.chat-contacts10__contact:hover{
+    background-color: rgb(87, 85, 85);
+}
+
+.chat-contacts10__preview p{
+    position: relative;
+    left: 70px ;
+    bottom: 20px;
+    color: rgb(122, 119, 119);
+}
+
+.chat-contacts10__preview p b{
+    font-weight: bold;
+}
+
+.chat-contacts10__avatar{
+    width: 50px;
+    height: 50px;
+    position: relative;
+    left: 10px;
+    top: 15px;
+}
+
+.chat-contacts10__timestamp{
+    position: relative;
+    left: 385px;
+    bottom: 65px;
+}
+
+.chat-contacts10__status--unread{
+    color: rgb(122, 119, 119);
+}
+
+.chat-contacts10__status--read{
+    color: rgba(112, 92, 242, 1);
+}
+
+.chat-contacts10__status--unread .fa-check,
+.chat-contacts10__status--read .fa-check{
+    color:  rgba(112, 92, 242, 1);
+}
+
+.chat-contacts10__status--unread .fa-check:first-child{
+    position: relative;
+    left: 9px;
+}
+
+.chat-contacts10__status--unread time{
+    color: rgba(112, 92, 242, 1);
+}
+
+.chat-contacts10__counter{
+    color: #fff;
+    position: relative;
+    top: 10px;
+    left: 25px;
+    background-color: rgba(112, 92, 242, 1);
+    width: 40px;
+    height: 18px;
+    text-align: center;
+    padding-top: 5px;
+    border-radius: 20px;
+    font-weight: bold;
 }
