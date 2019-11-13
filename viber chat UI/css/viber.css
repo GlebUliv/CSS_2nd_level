@@ -4,19 +4,106 @@
     border-radius: 20px;
 }
 
+.bottom-bar{
+    position: relative;
+}
+
+.bottom-bar__navigation{
+        background-color: #161F26;
+        border-top: 1px solid #777 ;
+        text-align: center;
+        height: 55px;
+        position: relative;
+        top: 36px;
+        border-radius: 0 0 20px 20px;
+}
+
+.bottom-bar__navigation ul li{
+        display: inline-block;
+}
+    
+.bottom-bar__navigation ul li i{
+        font-size: 150%;
+        display: block;
+}
+
+.bottom-bar__navigation ul li a{
+        padding: 0 50px;
+        display: block;
+        position: relative;
+        top: 7px;
+        color: rgb(87, 85, 85);
+        text-decoration: none;
+}
+
+.bottom-bar__navigation ul li a:active{
+    color: rgba(112, 92, 242, 1);
+}
+
+.top-bar__search{
+    color: #fff;
+    height: 50px;
+    border-bottom: 1px solid #777
+}
+
+.top-bar__search #search-checkbox+label{
+    position: relative;
+    left: 420px;
+    top: 18px;
+    color: rgba(112, 92, 242, 1) ;
+}
+
+.top-bar__search #search-checkbox{
+    display: none;
+}
+
+.top-bar__search #search-checkbox+label+label{
+    position: relative;
+    top: 18px;
+    left: 10px;
+    color: rgba(112, 92, 242, 1);
+}
+
+.top-bar__search #search-checkbox:checked+label+label+input{
+    position: relative;
+    top: 18px;
+    left: 15px;
+    border: 0 solid #161F26 ;
+    background-color: #161F26 ;
+}
+
+.top-bar__search #search-checkbox+label+label+input+b{
+    font-size: 130%;
+    position: relative;
+    top: 18px;
+    font-weight: bold;
+}
+
+.top-bar__search #search-checkbox+label+label, .top-bar__search #search-checkbox+label+label+input{
+    display: none;
+}
+
+.top-bar__search #search-checkbox:checked+label+label, .top-bar__search #search-checkbox:checked+label+label+input{
+    display: inline;
+}
+
+.top-bar__search #search-checkbox:checked+label, .top-bar__search #search-checkbox:checked+label+label+input+b{
+    display: none;
+}
+
 a{
     color: white;
 }
 
 .status-bar{
     position: relative;
-    left: 390px;
+    left: 370px;
     top: 8px;
     height: 16px;
 
 }
 
-.viber-app .top-bar label{
+/* .viber-app .top-bar label{
     color: white;
     font-weight: bold;
     font-size: 120%;
@@ -36,10 +123,11 @@ a{
     height: 70px;
     width: auto;
     border-bottom: 1px solid black;
-}
+} */
 
 .chat-contacts__contact{
     height: 82px;
+    border-bottom: 1px solid #777;
 }
 
 .chat-contacts__message .fa-check-circle{
@@ -48,7 +136,7 @@ a{
 }
 
 .chat-contacts__preview{
-    border-bottom: 1px solid black;
+    
 }
 
 .chat-contacts__preview h3{
@@ -125,6 +213,7 @@ a{
 /* --------------------------------------------------------------------- */
 .chat-contacts1__contact{
     height: 82px;
+    border-bottom: 1px solid #777
 }
 
 .chat-contacts1__message .fa-check-circle{
@@ -133,7 +222,7 @@ a{
 }
 
 .chat-contacts1__preview{
-    border-bottom: 2px solid black;
+
 }
 
 .chat-contacts1__preview h3{
@@ -211,6 +300,7 @@ a{
 
 .chat-contacts2__contact{
     height: 82px;
+    border-bottom: 1px solid #777
 }
 
 .chat-contacts2__message .fa-check-circle{
@@ -219,7 +309,7 @@ a{
 }
 
 .chat-contacts2__preview{
-    border-bottom: 2px solid black;
+    
 }
 
 .chat-contacts2__preview h3{
@@ -296,6 +386,7 @@ a{
 /* ---------------------------------------------------------- */
 .chat-contacts3__contact{
     height: 82px;
+    border-bottom: 1px solid #777
 }
 
 .chat-contacts3__message .fa-check-circle{
@@ -304,7 +395,7 @@ a{
 }
 
 .chat-contacts3__preview{
-    border-bottom: 2px solid black;
+    
 }
 
 .chat-contacts3__preview h3{
@@ -383,6 +474,7 @@ a{
 
 .chat-contacts4__contact{
     height: 82px;
+    border-bottom: 1px solid #777
 }
 
 .chat-contacts4__message .fa-check-circle{
@@ -391,7 +483,7 @@ a{
 }
 
 .chat-contacts4__preview{
-    border-bottom: 2px solid black;
+    
 }
 
 .chat-contacts4__preview h3{
@@ -470,6 +562,7 @@ a{
 
 .chat-contacts5__contact{
     height: 82px;
+    border-bottom: 1px solid #777
 }
 
 .chat-contacts5__message .fa-check-circle{
@@ -478,7 +571,7 @@ a{
 }
 
 .chat-contacts5__preview{
-    border-bottom: 2px solid black;
+   
 }
 
 .chat-contacts5__preview h3{
@@ -556,6 +649,7 @@ a{
 
 .chat-contacts6__contact{
     height: 82px;
+    border-bottom: 1px solid #777
 }
 
 .chat-contacts6__message .fa-check-circle{
@@ -564,7 +658,7 @@ a{
 }
 
 .chat-contacts6__preview{
-    border-bottom: 2px solid black;
+    
 }
 
 .chat-contacts6__preview h3{
@@ -643,6 +737,7 @@ a{
 
 .chat-contacts7__contact{
     height: 82px;
+    border-bottom: 1px solid #777
 }
 
 .chat-contacts7__message .fa-check-circle{
@@ -651,7 +746,7 @@ a{
 }
 
 .chat-contacts7__preview{
-    border-bottom: 2px solid black;
+    
 }
 
 .chat-contacts7__preview h3{
@@ -730,6 +825,7 @@ a{
 
 .chat-contacts8__contact{
     height: 82px;
+    border-bottom: 1px solid #777;
 }
 
 .chat-contacts8__message .fa-check-circle{
@@ -738,7 +834,7 @@ a{
 }
 
 .chat-contacts8__preview{
-    border-bottom: 2px solid black;
+    
 }
 
 .chat-contacts8__preview h3{
@@ -816,6 +912,7 @@ a{
 
 .chat-contacts9__contact{
     height: 82px;
+    border-bottom: 1px solid #777;
 }
 
 .chat-contacts9__message .fa-check-circle{
@@ -824,7 +921,7 @@ a{
 }
 
 .chat-contacts9__preview{
-    border-bottom: 2px solid black;
+   
 }
 
 .chat-contacts9__preview h3{
@@ -899,7 +996,7 @@ a{
     font-weight: bold;
 }
 /* ------------------------------------------------- */
-.chat-contacts10__contact{
+/* .chat-contacts10__contact{
     height: 82px;
 }
 
@@ -978,4 +1075,4 @@ a{
     padding-top: 5px;
     border-radius: 20px;
     font-weight: bold;
-}
+} */
