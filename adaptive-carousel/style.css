@@ -1,0 +1,60 @@
+#carousel{
+    width: 960px;
+    height: 480px;
+    background-color: #333;
+    /* position: absolute;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0; */
+}
+
+.center{
+    position: absolute;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+#carousel img{
+    position: absolute;
+}
+
+#carousel img:first-child{
+    left: -300px;
+    transform: scale(0.8);
+}
+
+#carousel img:first-child+img{
+    z-index: 1;
+}
+    
+#carousel img:last-child{
+    right: -300px;
+    transform: scale(0.8);
+}
+
+#carousel .controls a{
+    text-decoration: none;
+    color: rgb(211, 208, 39);
+}
+
+#carousel .controls{
+    position: absolute;
+    top: 213px;
+    font-size: 55px;
+    width: 960px;
+}
+
+#carousel .controls a:first-child{
+    position: absolute;
+    left: 6px;
+}
+
+#carousel .controls a:last-child{
+    position: absolute;
+    left: 900px;
+}
