@@ -23,16 +23,16 @@
     position: absolute;
 }
 
-#carousel img:first-child{
+#carousel picture:first-child img{
     left: -300px;
     transform: scale(0.8);
 }
 
-#carousel img:first-child+img{
+#carousel picture:first-child+picture img{
     z-index: 1;
 }
     
-#carousel img:last-child{
+#carousel picture:last-child img{
     right: -300px;
     transform: scale(0.8);
 }
@@ -57,4 +57,15 @@
 #carousel .controls a:last-child{
     position: absolute;
     left: 900px;
+}
+
+#carousel .indicators{
+    position: relative;
+    top: 450px;
+    left: 450px;
+}
+
+#carousel .indicators a{
+    text-decoration: none;
+    color: yellow;
 }
