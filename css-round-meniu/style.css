@@ -169,7 +169,6 @@ body{
    }
 
    [bell-tooltip]::after {
-       display: block;
     content: attr(bell-tooltip); 
     position: absolute; 
     width: 81px; 
@@ -181,7 +180,7 @@ body{
     opacity: 0;
     transition: 1s;
     transform: skew(-45deg);
-    font-size: 20px;
+    font-size: 17px;
    }
    [bell-tooltip]:hover::after {
     position: absolute;
