@@ -1,0 +1,201 @@
+body{
+    background-color: #494949;
+    padding: 200px;
+}
+
+.round-meniu{
+    position: relative;
+    width: 400px;
+    height: 400px;
+    background-color: #494040;
+    border-radius: 100%;
+    overflow: hidden;
+    box-shadow: inset -3px -2px 7px 5px #222;
+}
+
+.round-meniu a{
+    color: #fff;
+    font-size: 200%;
+    position: relative;
+    display: block;
+    transform: skew(-45deg);
+    /* background-color: salmon; */
+    width: inherit;
+    height: inherit;
+}
+
+.round-meniu li{
+    border: 1px solid #888;
+    width: 400px;
+    height: 400px;
+    /* transform: skew(45deg); */
+    position: absolute;
+    transform-origin: 0 0 ;
+    top: 200px;
+    left: 200px;
+    overflow: hidden;
+}
+
+.round-meniu li:hover{
+    background-color: rgba(9, 241, 106, 0.1);
+}
+
+.round-meniu li:nth-child(1){
+    /* background-color: orangered; */
+    transform: rotate(157.5deg) skew(45deg);
+}
+
+.round-meniu li:nth-child(2){
+    transform: rotate(202.5deg) skew(45deg);
+    /* background-color: red; */
+}
+
+.round-meniu li:nth-child(3){
+    transform: rotate(247.5deg) skew(45deg);
+    /* background-color: slateblue; */
+}
+
+.round-meniu li:nth-child(4){
+    transform: rotate(292.5deg) skew(45deg);
+    /* background-color: teal; */
+}
+
+.round-meniu li:nth-child(5){
+    transform: rotate(337.5deg) skew(45deg);
+    /* background-color: springgreen; */
+}
+
+.round-meniu li:nth-child(6){
+    transform: rotate(382.5deg) skew(45deg);
+    /* background-color: yellow; */
+}
+
+.round-meniu li:nth-child(7){
+    transform: rotate(427.5deg) skew(45deg);
+    /* background-color: purple; */
+}
+
+.round-meniu li:nth-child(8){
+    transform: rotate(472.5deg) skew(45deg);
+    /* background-color: rosybrown; */
+}
+
+.round-meniu li:nth-child(9){
+    width: 200px;
+    height: 200px;
+    background-color: #fff;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: auto;
+    border-radius: 100%;
+    box-shadow: 6px 7px 7px 5px #222;
+}
+
+.round-meniu li:nth-child(10){
+    border: none;
+    position: relative;
+    left: 160px;
+    top: 60px;
+}
+
+/* .round-meniu li i{
+    transform: translateX(-70px) translateY(40px);
+    text-shadow: 2px 1px 5px #111;
+} */
+
+
+.round-meniu li:nth-child(1) i{
+    transform: translateX(-80px) translateY(40px) rotate(-157.5deg);
+    text-shadow: 2px 1px 5px #111;
+}
+
+.round-meniu li:nth-child(2) i{
+    transform: translateX(-80px) translateY(40px) rotate(-202.5deg);
+    text-shadow: 2px 1px 5px #111;
+}
+
+.round-meniu li:nth-child(3) i{
+    transform: translateX(-80px) translateY(40px) rotate(-247.5deg);
+    text-shadow: 2px 1px 5px #111;
+}
+
+.round-meniu li:nth-child(4) i{
+    transform: translateX(-80px) translateY(40px) rotate(-292.5deg);
+    text-shadow: 2px 1px 5px #111;
+}
+
+.round-meniu li:nth-child(5) i{
+    transform: translateX(-80px) translateY(40px) rotate(-337.5deg);
+    text-shadow: 2px 1px 5px #111;
+}
+
+.round-meniu li:nth-child(6) i{
+    transform: translateX(-80px) translateY(40px) rotate(-382.5deg);
+    text-shadow: 2px 1px 5px #111;
+}
+
+.round-meniu li:nth-child(7) i{
+    transform: translateX(-80px) translateY(40px) rotate(-427.5deg);
+    text-shadow: 2px 1px 5px #111;
+}
+
+.round-meniu li:nth-child(8) i{
+    transform: translateX(-80px) translateY(40px) ;
+    text-shadow: 2px 1px 5px #111;
+}
+
+[search-tooltip]::after {
+    content: attr(search-tooltip); 
+    position: absolute; 
+    width: 50px; 
+    left: 190px; top: 10px; 
+    background: #3989c9;
+    color: #fff; 
+    padding: 6px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    opacity: 0;
+    transition: 1s;
+    transform: rotate(180deg) skew(-45deg);
+    font-size: 20px;
+   }
+   [search-tooltip]:hover::after {
+    position: absolute;
+    opacity: 1;
+    left: 100px; top: 10px;
+    transform:translateX(5px) rotate(180deg) skew(-45deg);
+    border-radius: 10px;
+   }
+
+   [bell-tooltip]::after {
+       display: block;
+    content: attr(bell-tooltip); 
+    position: absolute; 
+    width: 81px; 
+    left: 180px; top: 10px;
+    background: #3989c9;
+    color: #fff; 
+    padding: 5px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    opacity: 0;
+    transition: 1s;
+    transform: skew(-45deg);
+    font-size: 20px;
+   }
+   [bell-tooltip]:hover::after {
+    position: absolute;
+    opacity: 1;
+    left: 70px; top: 10px;
+    transform: translateX(6px) skew(-45deg);
+    border-radius: 10px;
+   }
+
+.round-meniu div i{
+    color: rgb(168, 166, 166);
+    position: relative;
+    font-size: 300%;
+    left: 177px;
+    top: 85px;
+    text-shadow: 3px 2px 5px #333;
+}
