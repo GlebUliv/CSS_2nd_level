@@ -54,7 +54,7 @@ body{
                 font-size: 200%;
             }
             h4{
-                font:{
+                font: {
                     weight: 900;
                     size: 1.5em;
                 }
@@ -90,7 +90,7 @@ body{
 }
 
 #section-manage{
-    background-color: #bbb;
+    // background-color: #bbb;
     // float: right;
     h1, h2{
         text-align: left;
@@ -146,6 +146,15 @@ body{
              &:nth-child(4){
                 top: 90px;
             }
+        &:last-child{
+            position: relative;
+            left: 760px;
+            // right: 100px;
+            bottom: 450px;
+            // background-color: #555;
+            width: 380px;
+            background-size: cover;
+        }
         span{
         display: block;
         width: 50px;
@@ -158,14 +167,6 @@ body{
                 // padding-top: 10px;
                 line-height: 1.6em;
             }
-        }
-        &:last-child{
-            position: relative;
-            left: 760px;
-            right: 100px;
-            bottom: 450px;
-            background-color: #555;
-            width: 380px;
         }
         h4{
                 line-height: 1.5em;

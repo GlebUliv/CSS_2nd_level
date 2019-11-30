@@ -85,10 +85,6 @@ body {
   text-align: center;
 }
 
-#section-manage {
-  background-color: #bbb;
-}
-
 #section-manage h1, #section-manage h2 {
   text-align: left;
 }
@@ -140,6 +136,14 @@ body {
   top: 90px;
 }
 
+.row-info div:last-child {
+  position: relative;
+  left: 760px;
+  bottom: 450px;
+  width: 380px;
+  background-size: cover;
+}
+
 .row-info div span {
   display: block;
   width: 50px;
@@ -152,15 +156,6 @@ body {
 
 .row-info div span i {
   line-height: 1.6em;
-}
-
-.row-info div:last-child {
-  position: relative;
-  left: 760px;
-  right: 100px;
-  bottom: 450px;
-  background-color: #555;
-  width: 380px;
 }
 
 .row-info div h4 {
