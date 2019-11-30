@@ -1,0 +1,178 @@
+// http://appco.themetags.com/index.html
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+.section{
+    height: 100vh;
+    h1{
+        text-align: center;
+        font: {
+            weight: 700;
+            size: 3em;
+        }
+        margin: 1em 0 0.3em 0;
+    }
+    h2{
+        text-align: center;
+        font: {
+            weight: 300;
+            size: 2em;
+        }   
+        margin: 0 0 1.5em 0 ;
+    }
+    .important-text{
+        font-size: 1.2em;
+        text-align: center;
+        line-height: 1.7em;
+    }
+}
+
+.row{
+    &.row-ib{
+        // background-color: red;
+        margin-top: 50px;
+        div{
+            display: inline-block;
+            background-color: white;
+            width: calc(1140px / 3 - 35px);
+            margin-right: 35px;
+            border-radius: 25px;
+            padding-top: 50px;
+            box-shadow: 0 0 6px 10px rgba(219, 217, 217, 0.9);
+            &:hover{
+                position: relative;
+                bottom: 13px;
+                box-shadow: 0 0 7px 10px rgba(219, 217, 217, 0.4);
+            }
+            &:last-child{
+                margin-right: 0;
+            }
+            span{
+                display: block;
+                font-size: 200%;
+            }
+            h4{
+                font:{
+                    weight: 900;
+                    size: 1.5em;
+                }
+                padding-top: 50px;
+            }
+            p{
+                padding-top: 20px;
+                padding-bottom: 60px;
+                line-height: 2em;
+                font:{
+                    weight: 300;
+                    size: 1em;
+                }
+            }
+        }
+    }
+}
+
+
+.container{
+    width: 1140px;
+    margin: auto;
+
+}
+
+#header-main{
+    background-color: #999;
+}
+
+#section-advantages{
+    background-color: #fff;
+    text-align: center;
+}
+
+#section-manage{
+    background-color: #bbb;
+    // float: right;
+    h1, h2{
+        text-align: left;
+        
+    }
+}
+// --------------------------------------------------------------------------
+@media screen and (max-width: 1200px){
+    .section{
+    height: 200vh;
+    }
+    .container{
+        width: 800px;
+    }
+    .row{
+        &.row-ib{
+            div{
+                display: block;
+                position: relative;
+                left: 220px;
+                &:nth-child(2){
+                    top: 50px;
+                }
+                &:nth-child(3){
+                    top: 100px;
+                }
+            }
+        }
+    }
+    .container-manage{
+        width: 800px;
+    }
+    .row-info{
+        display: block;
+    }
+}
+// ------------------------------------------------------------------------------
+
+.container-manage{
+    width: 1140px;
+    margin: auto;
+}
+
+.row-info{
+    div{
+        position: relative;
+        &:nth-child(2){
+                top: 30px;
+            }
+        &:nth-child(3){
+                top: 60px;
+            }
+             &:nth-child(4){
+                top: 90px;
+            }
+        span{
+        display: block;
+        width: 50px;
+        height: 50px;
+        background-color: #fff;
+        text-align: center;
+        color: blueviolet;
+        font-size: 200%;
+            i{
+                // padding-top: 10px;
+                line-height: 1.6em;
+            }
+        }
+        &:last-child{
+            position: relative;
+            left: 760px;
+            right: 100px;
+            bottom: 450px;
+            background-color: #555;
+            width: 380px;
+        }
+        h4{
+                line-height: 1.5em;
+                padding-left: 60px;
+                margin-top: -50px;
+            }
+       
+    }
+    
+}
