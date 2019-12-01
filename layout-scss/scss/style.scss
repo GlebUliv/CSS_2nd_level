@@ -64,7 +64,7 @@ body{
                 padding-top: 20px;
                 padding-bottom: 60px;
                 line-height: 2em;
-                font:{
+                font: {
                     weight: 300;
                     size: 1em;
                 }
@@ -94,7 +94,7 @@ body{
     float: right;
     h1, h2{
         text-align: left;
-        margin-left: -200px;
+        margin-left: -190px;
         
     }
 }
@@ -128,7 +128,7 @@ body{
         text-align: none;
         margin-left: 210px;
         }
-    
+    }
     .container-manage{
         width: 800px;
     }
@@ -137,7 +137,7 @@ body{
             position: relative;
             display: block;
             &:not(:last-child){
-            left: 400px;
+            left: 300px;
             }
             &:last-child{
             top: 600px;
@@ -146,6 +146,7 @@ body{
         }
     }
 }
+
 // ------------------------------------------------------------------------------
 
 
@@ -153,6 +154,7 @@ body{
     width: 1140px;
     margin: auto;
 }
+
 
 .row-info{
     div{
@@ -182,7 +184,7 @@ body{
             margin-top: -50px;
             margin-left: 90px;
             font-weight: 300;
-            }
+        }
             
     }
 }

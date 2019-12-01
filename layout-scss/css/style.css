@@ -91,7 +91,7 @@ body {
 
 #section-manage h1, #section-manage h2 {
   text-align: left;
-  margin-left: -200px;
+  margin-left: -190px;
 }
 
 @media screen and (max-width: 1200px) {
@@ -123,14 +123,13 @@ body {
     width: 800px;
   }
   .row-info div {
+    position: relative;
     display: block;
   }
   .row-info div:not(:last-child) {
-    position: relative;
-    left: 400px;
+    left: 300px;
   }
   .row-info div:last-child {
-    position: relative;
     top: 600px;
     right: 200px;
   }
