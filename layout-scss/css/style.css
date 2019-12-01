@@ -86,17 +86,26 @@ body {
 }
 
 #section-manage {
-  float: right;
+  height: 100vh;
 }
 
-#section-manage h1, #section-manage h2 {
+#section-manage h1 {
   text-align: left;
-  margin-left: -190px;
+  font-weight: 700;
+  font-size: 3em;
+  margin: 1em 0 0.3em 0;
+}
+
+#section-manage h2 {
+  text-align: left;
+  font-weight: 300;
+  font-size: 2em;
+  margin: 0 0 1.5em 0;
 }
 
 @media screen and (max-width: 1200px) {
   .section {
-    height: 200vh;
+    height: 180vh;
   }
   .container {
     width: 800px;
@@ -112,44 +121,19 @@ body {
   .row.row-ib div:nth-child(3) {
     top: 100px;
   }
-  #section-manage {
+  .row.row-fl div:last-child {
     float: none;
-  }
-  #section-manage h1, #section-manage h2 {
-    text-align: none;
-    margin-left: 120px;
-  }
-  .container-manage {
-    width: 800px;
-  }
-  .row-info div {
-    position: relative;
-    display: block;
-  }
-  .row-info div:not(:last-child) {
-    left: 300px;
-  }
-  .row-info div:last-child {
-    top: 600px;
-    right: 200px;
+    padding-top: 600px;
+    margin-right: 250px;
   }
 }
 
-.container-manage {
-  width: 1140px;
-  margin: auto;
+.row.row-fl div:last-child {
+  float: right;
+  margin-top: -550px;
 }
 
-.row-info div:not(:last-child) {
-  margin-left: -200px;
-}
-
-.row-info div:last-child {
-  margin-top: -500px;
-  margin-left: 550px;
-}
-
-.row-info div span {
+.row.row-fl div span {
   display: block;
   width: 60px;
   height: 60px;
@@ -158,13 +142,13 @@ body {
   font-size: 200%;
 }
 
-.row-info div span i {
+.row.row-fl div span i {
   font-size: 120%;
   margin-left: 12.5px;
   margin-top: 12.5px;
 }
 
-.row-info div h4 {
+.row.row-fl div h4 {
   line-height: 30px;
   margin-top: -55px;
   margin-left: 90px;

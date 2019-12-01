@@ -90,18 +90,30 @@ body{
 }
 
 #section-manage{
-    // background-color: #bbb;
-    float: right;
-    h1, h2{
+    height: 100vh;
+    h1{
         text-align: left;
-        margin-left: -190px;
-        
+        font: {
+            weight: 700;
+            size: 3em;
+        }
+        margin: 1em 0 0.3em 0;
+    }
+    h2{
+        text-align: left;
+        font: {
+            weight: 300;
+            size: 2em;
+        }   
+        margin: 0 0 1.5em 0 ;
     }
 }
+
+
 // --------------------------------------------------------------------------
 @media screen and (max-width: 1200px){
     .section{
-    height: 200vh;
+    height: 180vh;
     }
     .container{
         width: 800px;
@@ -122,70 +134,52 @@ body{
         }
     }
 
-    #section-manage{
-        float: none;
-        h1, h2{
-        text-align: none;
-        margin-left: 120px;
+
+    .row{
+        &.row-fl{
+           div{
+               &:last-child{
+                   float: none;
+                   padding-top: 600px;
+                   margin-right: 250px;
+               }
+           } 
         }
-    }
-    .container-manage{
-        width: 800px;
-    }
-    .row-info{
-        div{
-            position: relative;
-            display: block;
-            &:not(:last-child){
-            left: 300px;
-            }
-            &:last-child{
-            top: 600px;
-            right: 200px;
-            }
-        }
-    }
+    }   
 }
 
 // ------------------------------------------------------------------------------
 
 
-.container-manage{
-    width: 1140px;
-    margin: auto;
-}
+.row{
+    &.row-fl{
+        div{
+            &:last-child{
+                float: right;
+                margin-top: -550px;
+            }
+            span{
+                display: block;
+                width: 60px;
+                height: 60px;
+                margin-top: 25px;
+                // background-color: red;
+                color: blueviolet;
+                font-size: 200%;
+                i{
+                    font-size: 120%;
+                    margin-left: 12.5px;
+                    margin-top: 12.5px;
 
+                }
+            }
+            h4{
+                line-height: 30px;
+                margin-top: -55px;
+                margin-left: 90px;
+                font-weight: 300;
 
-.row-info{
-    div{
-        &:not(:last-child){
-            margin-left: -200px;
-        }
-        &:last-child{
-            margin-top: -500px;
-            margin-left: 550px;
-        }
-        span{
-        display: block;
-        width: 60px;
-        height: 60px;
-        margin-top: 25px;
-        // background-color: red;
-        color: blueviolet;
-        font-size: 200%;
-         i{
-            // padding-top: 10px;
-            font-size: 120%;
-            margin-left: 12.5px;
-            margin-top: 12.5px;
             }
         }
-        h4{
-            line-height: 30px;
-            margin-top: -55px;
-            margin-left: 90px;
-            font-weight: 300;
-        }
-            
     }
 }
