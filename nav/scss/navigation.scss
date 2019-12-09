@@ -1,0 +1,93 @@
+body{
+    background-color: #2C327D;
+    font-family: 'Roboto', sans-serif;
+    height: 2000px;
+}
+
+.container{
+    width: 1140px;
+    margin: auto;
+    // background-color: brown;
+
+    @media screen and (max-width: 1200px){
+        width: 800px;
+    }
+
+    a{
+        text-decoration: none;
+        color: #fff;
+    }
+}
+
+#navbar{
+    &.aos-init{
+        opacity: 0.7;
+        background-color: transparent;
+        border-bottom: 3px solid transparent ;
+    }
+    &.aos-animate{
+        opacity: 1;
+        background-color: rgb(30, 79, 170) ;
+        border-bottom-color: rgb(40, 90, 184) ;
+    }
+    position: fixed;
+    width: 100%;
+    // background-color: brown;
+    .container{
+        height: 5em;
+        display: table;
+        >ul{
+            display: table-row;
+            >li{
+                :hover{
+                    color: rgb(201, 181, 181);
+                }
+                &.burger{
+                    display: none;
+                    font-size: 150%;
+                    text-align: center;
+                }
+                @media screen and (max-width: 1200px){
+                        display: none;
+                        &.burger, &.brand{
+                            display: table-cell;
+                        }
+                }
+                vertical-align: middle;
+                display: table-cell;
+                &.dropdown{
+                    position: relative;
+                    >ul{
+                        position: absolute;
+                        // background-color: #333;
+                        top: 5em;
+                        display: none;
+                        li{
+                            background-color: rgba(75, 152, 216, 0.8);
+                            line-height: 2em;
+                            width: 150px;
+                            height: auto;
+                            text-align: center;
+                            margin-left: -50px;
+                        }
+                        li::after {
+                            content: ''; 
+                            position: absolute;
+                            right: 38px; 
+                            top: -30px;
+                            border: 10px solid transparent;
+                            border-bottom: 20px solid rgba(75, 152, 216, 0.8);
+                        }
+                    }
+                }
+                &.dropdown:hover>ul{
+                        display:block;
+                    }
+                &.brand{
+                    padding-right: 15%;
+                }
+            }
+        }
+
+    }
+}
